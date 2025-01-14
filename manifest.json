@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Hermes IA",
+  "version": "1.0",
+  "description": "Menu contextual de herramientas IA",
+  "author": "Rubén Pastor Villarrubia",
+  "icons": {
+    "16": "icono16.png",
+    "48": "icono48.png",
+    "128": "icono128.png"
+  },
+  "permissions": ["contextMenus", "activeTab","scripting"],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
